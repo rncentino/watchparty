@@ -1,0 +1,281 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #24252B;
+    color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.landing-page {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    position: fixed;
+    z-index: 999;
+    background-color: #24252B;
+}
+
+.logo-brand a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    gap: .2em;
+}
+
+.logo-brand img {
+    background-color: white;
+    width: 25px;
+    border-radius: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3em;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    transition: .3s;
+}
+
+.content {
+    padding-top: 4.5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-content img {
+    width: 350px;
+    background-color: #1762A7;
+    border-radius: 30% 10%;
+    position: relative;
+    top: 100px;
+    left: -50px;
+    transition: .3s;
+}
+
+.left-content img:hover {
+    border-radius: 10% 30%;
+    transition: .3s;
+    background-color: #0f79db;
+}
+
+.right-content h1 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.right-content p {
+    font-size: 2rem;
+}
+
+.right-content button {
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #1762A7;
+    color: #ffffff;
+    border: none;
+    width: 9em;
+    height: 3em;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: .3s;
+}
+
+.right-content button:hover {
+    background-color: #ffffff;
+    color: #1762A7;
+    border: 1px solid #1762A7;
+    transition: .3s;
+}
+
+.discovery {
+    width: 100%;
+    height: 100vh;
+}
+
+.discovery-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.disc-title h2 {
+    padding-top: 5em;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.disc-image {
+    display: flex;
+    gap: 2em;
+}
+
+.disc-description p {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+
+.img4 p {
+    position: relative;
+    top: 10em;
+}
+
+.join {
+    width: 100%;
+    height: 90vh;
+    padding-top: 5em;
+}
+
+.join-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-join h3 {
+    font-size: 4rem;
+}
+
+.left-join span {
+    font-size: 6rem;
+    color: #CD2C2C;
+}
+
+.form-box {
+    width: 52em;
+    height: 45em;
+    background: rgba(15, 15, 15, 0.50);
+    border-radius: 1.6em;
+    padding: 5em;
+    margin-top: 3em;
+    font-family: Poppins;
+}
+
+.form-box label {
+    display: block;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: .5em;
+}
+
+.form-box input {
+    margin-bottom: .5em;
+    display: block;
+    width: 37.625rem;
+    height: 5.1875rem;
+    border-radius: 1.125rem;
+    border: 3px solid #1762A7;
+    background: #1A1A1D;
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.form-box button {
+    background-color: #1762A7;
+    border: none;
+    width: 37.625rem;
+    height: 5.1875rem;
+    font-size: 2rem;
+    font-family: Poppins;
+    font-weight: 600;
+    color: #FFF;
+    border-radius: 1.125em;
+    margin-top: .5em;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.form-box button:hover {
+    background-color: #FFF;
+    color: #1762A7;
+    border: 2px solid #1762A7;
+}
+
+footer {
+    background-color: #1A1A1D;
+    height: 4.3em;
+}
+
+.footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer,
+.left-link ul,
+.right-link ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+}
+
+.left-link li,
+.right-link li {
+    list-style-type: none;
+}
+
+.left-link a,
+.right-link a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Poppins;
+    transition: .3s;
+}
+
+.left-link a:hover,
+.right-link a:hover {
+    color: #1762A7;
+    transition: .3s;
+}
